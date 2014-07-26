@@ -9,9 +9,9 @@ See [here](http://irhc.github.io/table-sort) for some samples.
 
 ###Description
 
-table-sort is one of the smallest javascript component out on the web (if not the smallest) which adds basic functionality to html tables: sorting. It is completely independent from other javascript libraries but should work side-by-side with any other library like jQuery,etc.
+table-sort is one of the smallest javascript component out on the web (if not the smallest) which adds basic functionality to html tables: sorting. It is completely independent from other javascript libraries but should work side-by-side with libraries like jQuery, etc.
 
-Any html tables which have a tbody tag can be used (a thead tag is not mandatory), e.g.
+Any html tables which have at least one tr tag can be used (a thead or tbody tag is not mandatory), e.g.
 
 ```html
 <table id="example">
@@ -64,6 +64,7 @@ Any html tables which have a tbody tag can be used (a thead tag is not mandatory
 
 #####Supported Sorting Types
 
+Many different column types can be sorted: numbers, text, web addresses, dates and many more.
 See [Javascript Natural Sort Algorithm With Unicode Support](http://www.overset.com/2008/09/01/javascript-natural-sort-algorithm-with-unicode-support/) for a detailed description of supported sorting types.
 
 ###How to use
