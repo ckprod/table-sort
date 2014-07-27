@@ -62,7 +62,7 @@ Any html tables which have at least one tr tag can be used (a thead or tbody tag
 </table>
 ```
 
-#####Supported Sorting Types
+#####Supported sorting types
 
 Many different column types can be sorted: numbers, text, web addresses, dates and many more.
 See [Javascript Natural Sort Algorithm With Unicode Support](http://www.overset.com/2008/09/01/javascript-natural-sort-algorithm-with-unicode-support/) for a detailed description of supported sorting types.
