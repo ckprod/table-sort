@@ -9,7 +9,7 @@ See [here](http://irhc.github.io/table-sort) for some samples.
 
 ###Description
 
-table-sort is one of the smallest javascript component out on the web (if not the smallest) which adds basic functionality to html tables: sorting. It is completely independent from other javascript libraries but should work side-by-side with libraries like jQuery, etc.
+table-sort is one of the smallest javascript component out on the web which adds basic functionality to html tables: sorting. It is completely independent from other javascript libraries but should work side-by-side with libraries like jQuery, etc.
 
 Any html tables which have at least one tr tag can be used (a thead or tbody tag is not mandatory), e.g.
 
