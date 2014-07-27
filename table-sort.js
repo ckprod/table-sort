@@ -19,7 +19,6 @@
             return '';
         }
 
-        var time = new Date();
         this.init(table, options || {});
     }
 
