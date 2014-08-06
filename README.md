@@ -3,7 +3,7 @@ table-sort
 
 Adds basic functionality to html tables: sorting.
 
-###Sample
+###Samples
 
 See [here](http://irhc.github.io/table-sort) for some samples.
 
