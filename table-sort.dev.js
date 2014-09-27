@@ -1,4 +1,23 @@
-;(function () {
+;
+if (typeof DEBUG === "undefined") DEBUG = true;
+
+// debugging utils
+function log() {
+    var a = arguments[0],
+        s = arguments.length > 1 ? Array.prototype.slice.call(arguments) : a;
+
+    if (typeof console !== "undefined" && typeof console.log !== "undefined") {
+        console[/error/i.test(a) ? 'error' : /warn/i.test(a) ? 'warn' : 'log'](s);
+    } else {
+        alert(s);
+    }
+}
+
+function benchmark(text, time) {
+    log(text + " (" + (new Date().getTime() - time.getTime()) + "ms)");
+}
+
+(function () {
     "use strict";
 
     // This simple and small javascript solution for sorting html tables

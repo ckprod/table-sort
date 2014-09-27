@@ -22,7 +22,8 @@
 	<a href="https://github.com/irhc/table-sort">Repository and description on github</a>
 	</p>
 	</div>
-	<h4>Sample 1</h4>
+	<h3>Sample 1</h3>
+	Options: restoreState: true (default)
 
 	<table id="sample1" class="sample1" cellpadding="0" cellspacing="0" border="0">
         <thead>
@@ -73,7 +74,8 @@
         </tbody>
     </table>
 
-	<h4>Sample 2 (from <a href="http://akottr.github.io/dragtable/">akottr</a>)</h4>
+	<h3>Sample 2 (from <a href="http://akottr.github.io/dragtable/">akottr</a>)</h3>
+	Options: restoreState: true
 	
       <table id="sample2" class="sar-table">
         <thead>
@@ -102,7 +104,8 @@
         </tbody>
       </table>
 	
-	<h4>Sample 3 (from <a href="http://tablesorter.com/docs/">tablesorter</a>)</h4>
+	<h3>Sample 3 (from <a href="http://tablesorter.com/docs/">tablesorter</a>)</h3>
+	Options: restoreState: false
 	
 	<table id="sample3" class="tablesorter"> 
 		<thead> 
@@ -146,7 +149,8 @@
 		</tbody> 
 	</table> 
 	
-	<h4>Sample 4 (from <a href="http://tristen.ca/tablesort/demo/">tablesort</a>)</h4>
+	<h3>Sample 4 (from <a href="http://tristen.ca/tablesort/demo/">tablesort</a>)</h3>
+	Options: restoreState: false
 	
 	<table id='sample4' class='sort'>
       <thead>
@@ -207,9 +211,9 @@
 	<script src='table-sort.min.js'></script>
 	<script>
 	  new TableSort(document.getElementById('sample1'));
-	  new TableSort(document.getElementById('sample2'));
-	  new TableSort(document.getElementById('sample3'));
-	  new TableSort(document.getElementById('sample4'));
+	  new TableSort(document.getElementById('sample2'), {restoreState: true});
+	  new TableSort(document.getElementById('sample3'), {restoreState: false});
+	  new TableSort(document.getElementById('sample4'), {restoreState: false});
 	</script>
 
 </body>
