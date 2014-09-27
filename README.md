@@ -1,7 +1,7 @@
 table-sort
 ==========
 
-Adds basic functionality to html tables: sorting.
+Simple and small standalone javascript html table sorting component.
 
 ###Samples
 
@@ -83,6 +83,24 @@ Just before the end of your body section put
   new TableSort(document.getElementById('example'));
 </script>
 ```
+
+If you don't want to use default options, pass in an options object as second parameter
+
+```html
+  new TableResize(document.getElementById('example'), {restoreState: true});
+```
+
+###Options
+
+- restoreState (default true): localStorage is used to remember the last sorting order if true.
+
+###Supported browsers
+
+- Internet Explorer 8 and newer
+- Opera
+- Chrome
+- Firefox
+- Safari 5.1.7 (and highly possible newer)
 
 ###References
 
